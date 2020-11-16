@@ -4,6 +4,10 @@ dist: trusty
 services:
   - rabbitmq
 
+arch:
+  - amd64
+  - ppc64le
+
 matrix:
   include:
     - go: "1.12.x"
